@@ -39,8 +39,9 @@ public class StudentTest {
         GosiaStudent.PrintColor2("zielony");
         GosiaStudent.PrintColor2("żółty");
 
-        //Leśniczek tu był.
-            //Baniusia tez tu była.
+        //Leśniczek tu był
+        // Baniusia tez tu była.
+        // Coś napisałem
 
 }
 
