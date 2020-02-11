@@ -42,6 +42,7 @@ public class StudentTest {
         //Leśniczek tu był
         // Baniusia tez tu była.
         // Coś napisałem
+            //gosia sprawdza
 
 }
 
