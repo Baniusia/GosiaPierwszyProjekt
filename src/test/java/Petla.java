@@ -49,13 +49,13 @@ public class Petla {
         } while (index <= Max);
     }
     public void FinalCountDown (int StartNumber, int Gap) {
-        for (int index=StartNumber; index >=0; index --) {
-            if (index % Gap ==0) {
+        for (int index=StartNumber; index >=0; index = index - Gap) {
+             {
                 System.out.println(index);
             }
         }
     }
 }
-
+//index-=Gap to samo co index = index - Gap
 
 

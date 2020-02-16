@@ -9,7 +9,7 @@ public class PetlaTest {
 //        test.PrintMultiplesFor(8, 2, 24);
 //        test.PrintMultiplesWhile(7,2,21);
 //        test.PrintMultiplesDoWhile (5,2,25);
-        test.FinalCountDown(12,3);
+        test.FinalCountDown(13,3);
     }
 }
 
