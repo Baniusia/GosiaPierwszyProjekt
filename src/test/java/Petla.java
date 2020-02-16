@@ -11,6 +11,12 @@ Second part of assignment: write another 2 functions PrintMultiplesWhile and Pri
 and replace in them For loop with While and Do While accordingly
  */
 
+/*
+New assignment: Add new method to class Petla named FinalCountdown with params int StartNumber, int Gap.
+Function should print numbers starting from StartNumber to 0 with Gap intervals between them.
+Example: FinalCountdown(12, 3) should print 12, 9, 6, 3, 0
+ */
+
 
 import org.testng.annotations.Test;
 
@@ -41,6 +47,13 @@ public class Petla {
             }
             index++;
         } while (index <= Max);
+    }
+    public void FinalCountDown (int StartNumber, int Gap) {
+        for (int index=StartNumber; index >=0; index --) {
+            if (index % Gap ==0) {
+                System.out.println(index);
+            }
+        }
     }
 }
 
